@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /confidentialite.html
+
+Sitemap: https://ginier-co.ch/sitemap.xml
