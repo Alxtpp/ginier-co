@@ -48,10 +48,15 @@ votre boîte et joint les photos. Étapes :
 3. Tant que la clé n'est pas remplacée, le formulaire affiche un avertissement et **n'envoie rien**
    (garde-fou). Une fois la clé en place, l'envoi fonctionne et un message de confirmation s'affiche.
 
-**Photos.** Le champ accepte plusieurs fichiers (JPG/PNG/HEIC). Le plan gratuit de Web3Forms limite
-la **taille totale des pièces jointes** (quelques Mo) ; pour des lots de photos volumineux, prévoyez
-le plan payant Web3Forms ou remplacez l'upload par un lien (WeTransfer, Google Drive). Pensez à
-demander à Web3Forms l'activation de l'**accusé de réception automatique** au client (« Auto-response »).
+**Photos — pas d'upload dans le formulaire.** Les pièces jointes sont une fonctionnalité **payante
+(Pro)** chez Web3Forms : tant que le compte est en plan gratuit, tout envoi contenant un fichier est
+refusé avec `You are trying to use a Pro feature` et le client voit « Envoi impossible ». Le champ
+`<input type="file">` a donc été retiré ; le bloc « Photos » invite à envoyer les images par
+**WhatsApp** ou **e-mail**, et `site.js` supprime par sécurité toute clé `attachment` du POST.
+Pour réactiver l'upload dans le formulaire : passer au plan Pro Web3Forms, puis remettre le champ
+(attention, l'uploader standard accepte **1 fichier de 5 Mo** — le `multiple` demande en plus
+l'« advanced file uploader »). Pensez à demander à Web3Forms l'activation de l'**accusé de réception
+automatique** au client (« Auto-response »).
 
 **Anti-spam.** Un honeypot invisible (`botcheck`) est déjà en place. Pour la publicité, ajoutez au
 besoin le hCaptcha proposé par Web3Forms.

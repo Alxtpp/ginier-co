@@ -103,7 +103,20 @@
         return;
       }
 
+      // Validation : le form est en novalidate, on vérifie donc à la main
+      if (!form.checkValidity()) {
+        form.reportValidity();
+        if (status) {
+          status.textContent = t("q.required", lang());
+          status.className = "form-status err";
+        }
+        return;
+      }
+
       var data = new FormData(form);
+      // Web3Forms réserve les pièces jointes au plan Pro : tout champ fichier
+      // ferait échouer l'envoi. Les photos passent par WhatsApp / e-mail.
+      data.delete("attachment");
       if (btn) { btn.disabled = true; btn.textContent = t("q.sending", lang()); }
       if (status) { status.textContent = ""; status.className = "form-status"; }
 

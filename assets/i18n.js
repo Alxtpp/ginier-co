@@ -232,9 +232,12 @@
     "q.precise.ph":   { fr: "Démonter le lit et l'armoire, poser 3 suspensions, fixer la TV 55\" et deux étagères dans le salon…", en: "Dismantle the bed and wardrobe, fit 3 pendant lights, mount the 55\" TV and two shelves in the living room…", de: "Bett und Schrank demontieren, 3 Hängeleuchten montieren, 55\"-TV und zwei Regale im Wohnzimmer anbringen…" },
 
     "q.6.legend":     { fr: "Photos", en: "Photos", de: "Fotos" },
-    "q.photos.b":     { fr: "Ajoutez des photos de vos pièces", en: "Add photos of your rooms", de: "Fügen Sie Fotos Ihrer Räume hinzu" },
-    "q.photos.s":     { fr: "Un devis est deux fois plus précis avec 4–5 photos (salon, chambres, cave, accès).", en: "A quote is twice as accurate with 4–5 photos (living room, bedrooms, cellar, access).", de: "Eine Offerte ist mit 4–5 Fotos doppelt so genau (Wohnzimmer, Zimmer, Keller, Zugang)." },
-    "q.photos.hint":  { fr: "JPG, PNG ou HEIC — 10 photos maximum, 10 Mo par fichier.", en: "JPG, PNG or HEIC — 10 photos max, 10 MB per file.", de: "JPG, PNG oder HEIC — max. 10 Fotos, 10 MB pro Datei." },
+    "q.photos.b":     { fr: "Envoyez-nous 4–5 photos de vos pièces", en: "Send us 4–5 photos of your rooms", de: "Senden Sie uns 4–5 Fotos Ihrer Räume" },
+    "q.photos.wa":    { fr: "WhatsApp 078 812 81 99", en: "WhatsApp +41 78 812 81 99", de: "WhatsApp +41 78 812 81 99" },
+    "q.photos.mail":  { fr: "info@ginier-co.ch", en: "info@ginier-co.ch", de: "info@ginier-co.ch" },
+    "q.photos.s":     { fr: "Un devis est deux fois plus précis avec des photos (salon, chambres, cave, accès).", en: "A quote is twice as accurate with photos (living room, bedrooms, cellar, access).", de: "Eine Offerte ist mit Fotos doppelt so genau (Wohnzimmer, Zimmer, Keller, Zugang)." },
+    "q.photos.hint":  { fr: "Envoyez vos photos avant ou après le formulaire, en indiquant votre nom — on les rattache à votre demande.", en: "Send your photos before or after the form, with your name — we'll attach them to your request.", de: "Senden Sie Ihre Fotos vor oder nach dem Formular mit Ihrem Namen — wir ordnen sie Ihrer Anfrage zu." },
+    "q.required":     { fr: "Merci de renseigner votre nom et votre téléphone.", en: "Please enter your name and phone number.", de: "Bitte geben Sie Namen und Telefonnummer an." },
 
     "q.7.legend":     { fr: "Vos coordonnées", en: "Your details", de: "Ihre Kontaktdaten" },
     "q.name":         { fr: "Nom et prénom", en: "Full name", de: "Vor- und Nachname" },

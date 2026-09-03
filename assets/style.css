@@ -85,6 +85,9 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;
 .drop b{display:block;font-size:15px;margin-bottom:4px}
 .drop span{font-size:13px;opacity:.7;display:block}
 .drop input{margin-top:12px;font-size:13px}
+.photo-links{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:14px}
+.photo-links a{display:inline-block;padding:9px 16px;border-radius:999px;background:var(--green);color:var(--cream);font-size:13px;font-weight:700;text-decoration:none}
+.photo-links a:hover{opacity:.88}
 .hint{font-size:12px;opacity:.62;line-height:1.5;margin:-6px 0 16px}
 .form button[type=submit]{width:100%;background:var(--green);color:var(--cream);border:2px solid var(--green);padding:16px;border-radius:999px;
   font-family:inherit;font-weight:900;font-size:15px;letter-spacing:.1em;text-transform:uppercase;cursor:pointer;margin-top:6px}
