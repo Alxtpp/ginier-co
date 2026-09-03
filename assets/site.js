@@ -22,22 +22,45 @@
         set(((clientX - r.left) / r.width) * 100);
       }
 
+      /* --- souris --- */
       var dragging = false;
-      function start(e) { dragging = true; move(e); }
-      function stop() { dragging = false; }
-      function move(e) {
-        if (!dragging) return;
-        var x = e.touches ? e.touches[0].clientX : e.clientX;
-        setFromX(x);
-        if (e.cancelable) e.preventDefault();
-      }
+      ba.addEventListener("mousedown", function (e) {
+        dragging = true; setFromX(e.clientX); e.preventDefault();
+      });
+      window.addEventListener("mousemove", function (e) {
+        if (dragging) setFromX(e.clientX);
+      });
+      window.addEventListener("mouseup", function () { dragging = false; });
 
-      ba.addEventListener("mousedown", start);
-      window.addEventListener("mousemove", move);
-      window.addEventListener("mouseup", stop);
-      ba.addEventListener("touchstart", start, { passive: false });
-      ba.addEventListener("touchmove", move, { passive: false });
-      ba.addEventListener("touchend", stop);
+      /* --- tactile ---
+         On ne prend la main que si le geste est horizontal. Un geste vertical
+         reste un défilement de page : avant, poser le doigt sur l'image
+         suffisait à bloquer le scroll sur mobile. */
+      var t0x = 0, t0y = 0, intent = null; // null = indécis, "slide" ou "scroll"
+
+      ba.addEventListener("touchstart", function (e) {
+        var t = e.touches[0];
+        t0x = t.clientX; t0y = t.clientY;
+        // doigt posé directement sur la poignée : intention sans ambiguïté
+        intent = (handle && (e.target === handle || handle.contains(e.target))) ? "slide" : null;
+        if (intent === "slide") setFromX(t0x);
+      }, { passive: true });
+
+      ba.addEventListener("touchmove", function (e) {
+        var t = e.touches[0];
+        if (intent === null) {
+          var dx = Math.abs(t.clientX - t0x), dy = Math.abs(t.clientY - t0y);
+          if (dx < 8 && dy < 8) return;            // geste trop court pour trancher
+          intent = dx > dy ? "slide" : "scroll";
+        }
+        if (intent !== "slide") return;             // on laisse la page défiler
+        setFromX(t.clientX);
+        if (e.cancelable) e.preventDefault();
+      }, { passive: false });
+
+      function touchEnd() { intent = null; }
+      ba.addEventListener("touchend", touchEnd);
+      ba.addEventListener("touchcancel", touchEnd);
 
       // clavier (accessibilité)
       if (handle) {

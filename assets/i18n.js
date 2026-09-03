@@ -5,6 +5,7 @@
      - HTML        : <h1 data-i18n-html="cle">…<br>…</h1>
      - Placeholder : <input data-i18n-ph="cle">
      - aria-label  : <a data-i18n-aria="cle">
+     - alt (image) : <img data-i18n-alt="cle">
    Le choix de langue est mémorisé dans localStorage ("ginier_lang").
    ===================================================================== */
 (function () {
@@ -81,9 +82,19 @@
     "met.4.p":        { fr: "Meubles remontés, cartons déposés pièce par pièce, emballages repris.", en: "Furniture reassembled, boxes placed room by room, packaging taken back.", de: "Möbel aufgebaut, Kartons Raum für Raum verteilt, Verpackung mitgenommen." },
 
     /* ---------- avant / après ---------- */
-    "ba.eyebrow":     { fr: "Avant / Après", en: "Before / After", de: "Vorher / Nachher" },
-    "ba.h2":          { fr: "Le vrai résultat,<br>glissez pour voir.", en: "The real result,<br>slide to reveal.", de: "Das echte Ergebnis,<br>schieben zum Ansehen." },
-    "ba.lead":        { fr: "Débarras et remise en état d'un appartement à Nyon. Photos réelles de nos chantiers — faites glisser la poignée.", en: "Clearance and restoration of a flat in Nyon. Real photos from our sites — drag the handle.", de: "Entrümpelung und Instandstellung einer Wohnung in Nyon. Echte Fotos unserer Einsätze — Griff verschieben." },
+    "team.alt.calvin":   { fr: "Calvin monte une armoire sur un chantier", en: "Calvin assembling a wardrobe on site", de: "Calvin baut vor Ort einen Schrank auf" },
+    "team.alt.chantier": { fr: "Dressing monté et posé en fin de chantier", en: "Fitted wardrobe assembled at the end of the job", de: "Fertig montierter Einbauschrank am Ende des Auftrags" },
+    "team.alt.camion":   { fr: "Piano protégé et sanglé dans le camion", en: "Piano padded and strapped down in the van", de: "Klavier geschützt und im Lieferwagen verzurrt" },
+    "ab.alt.chantier":   { fr: "Chambre remise en état après intervention", en: "Bedroom restored after our intervention", de: "Zimmer nach unserem Einsatz wiederhergestellt" },
+    "ba.cta":         { fr: "Devis débarras gratuit →", en: "Free clearance quote →", de: "Kostenlose Offerte Entrümpelung →" },
+    "srv.1.alt":      { fr: "Salon remonté et installé après un déménagement", en: "Living room reassembled and set up after a move", de: "Wohnzimmer nach dem Umzug wieder aufgebaut" },
+    "srv.2.alt":      { fr: "Scooter sanglé dans le camion pour un transport", en: "Scooter strapped down in the van for transport", de: "Roller für den Transport im Lieferwagen verzurrt" },
+    "srv.3.alt":      { fr: "Pièce vidée et nettoyée après un débarras", en: "Room emptied and cleaned after a clearance", de: "Raum nach der Entrümpelung geleert und gereinigt" },
+    "srv.4.alt":      { fr: "Dressing en cours de montage", en: "Wardrobe being assembled", de: "Kleiderschrank im Aufbau" },
+    "srv.3.link":     { fr: "Voir avant / après →", en: "See before / after →", de: "Vorher / nachher ansehen →" },
+    "ba.eyebrow":     { fr: "Débarras · avant / après", en: "Clearance · before / after", de: "Entrümpelung · vorher / nachher" },
+    "ba.h2":          { fr: "Un débarras,<br>avant et après.", en: "A clearance,<br>before and after.", de: "Eine Entrümpelung,<br>vorher und nachher." },
+    "ba.lead":        { fr: "Ces trois glissières montrent uniquement nos chantiers de débarras : on vide, on trie, on évacue et on rend la pièce nette. Appartement à Nyon, photos réelles — faites glisser la poignée.", en: "These three sliders show our clearance jobs only: we empty, sort, dispose of everything and hand back a clean room. Flat in Nyon, real photos — drag the handle.", de: "Diese drei Schieber zeigen ausschliesslich unsere Entrümpelungen: leeren, sortieren, entsorgen und den Raum sauber übergeben. Wohnung in Nyon, echte Fotos — Griff verschieben." },
     "ba.drag":        { fr: "Glissez", en: "Slide", de: "Schieben" },
     "ba.before":      { fr: "Avant", en: "Before", de: "Vorher" },
     "ba.after":       { fr: "Après", en: "After", de: "Nachher" },
@@ -309,6 +320,10 @@
     document.querySelectorAll("[data-i18n-aria]").forEach(function (el) {
       var t = T[el.getAttribute("data-i18n-aria")];
       if (t && t[lang] != null) el.setAttribute("aria-label", t[lang]);
+    });
+    document.querySelectorAll("[data-i18n-alt]").forEach(function (el) {
+      var t = T[el.getAttribute("data-i18n-alt")];
+      if (t && t[lang] != null) el.setAttribute("alt", t[lang]);
     });
     document.querySelectorAll("[data-i18n-content]").forEach(function (el) {
       var t = T[el.getAttribute("data-i18n-content")];
