@@ -54,7 +54,7 @@
     "seg.h2":         { fr: "Particuliers &amp; entreprises,<br>deux façons de travailler.", en: "Private &amp; business,<br>two ways of working.", de: "Privat &amp; Geschäft,<br>zwei Arbeitsweisen." },
     "seg.b2c.k":      { fr: "B2C · Particuliers", en: "B2C · Private", de: "B2C · Privat" },
     "seg.b2c.h":      { fr: "Votre déménagement<br>sans y penser.", en: "Your move<br>off your mind.", de: "Ihr Umzug,<br>ganz ohne Sorgen." },
-    "seg.b2c.p":      { fr: "Du studio à la villa familiale, week-ends compris. On s'occupe aussi du débarras de l'ancien logement et de la remise des clés.", en: "From studio to family villa, weekends included. We also handle clearing the old home and the handover of keys.", de: "Vom Studio bis zur Familienvilla, auch am Wochenende. Wir übernehmen auch die Räumung der alten Wohnung und die Schlüsselübergabe." },
+    "seg.b2c.p":      { fr: "Du studio à la villa familiale, week-ends compris. On s'occupe aussi du débarras de l'ancien logement.", en: "From studio to family villa, weekends included. We also handle clearing out the old home.", de: "Vom Studio bis zur Familienvilla, auch am Wochenende. Wir übernehmen auch die Räumung der alten Wohnung." },
     "seg.b2c.1":      { fr: "Emballage, démontage et remontage du mobilier", en: "Packing, dismantling and reassembly of furniture", de: "Verpacken, Demontage und Aufbau der Möbel" },
     "seg.b2c.2":      { fr: "Cartons, housses et protections fournis", en: "Boxes, covers and protections provided", de: "Kartons, Hüllen und Schutzmaterial inklusive" },
     "seg.b2c.3":      { fr: "Débarras cave, grenier, garage", en: "Cellar, attic, garage clearance", de: "Räumung von Keller, Estrich, Garage" },
