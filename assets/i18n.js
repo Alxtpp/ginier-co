@@ -244,7 +244,7 @@
 
     "q.6.legend":     { fr: "Photos", en: "Photos", de: "Fotos" },
     "q.photos.b":     { fr: "Envoyez-nous 4–5 photos de vos pièces", en: "Send us 4–5 photos of your rooms", de: "Senden Sie uns 4–5 Fotos Ihrer Räume" },
-    "q.photos.wa":    { fr: "WhatsApp 078 812 81 99", en: "WhatsApp +41 78 812 81 99", de: "WhatsApp +41 78 812 81 99" },
+    "q.photos.wa":    { fr: "WhatsApp 076 408 81 99", en: "WhatsApp +41 76 408 81 99", de: "WhatsApp +41 76 408 81 99" },
     "q.photos.mail":  { fr: "info@ginier-co.ch", en: "info@ginier-co.ch", de: "info@ginier-co.ch" },
     "q.photos.s":     { fr: "Un devis est deux fois plus précis avec des photos (salon, chambres, cave, accès).", en: "A quote is twice as accurate with photos (living room, bedrooms, cellar, access).", de: "Eine Offerte ist mit Fotos doppelt so genau (Wohnzimmer, Zimmer, Keller, Zugang)." },
     "q.photos.hint":  { fr: "Envoyez vos photos avant ou après le formulaire, en indiquant votre nom — on les rattache à votre demande.", en: "Send your photos before or after the form, with your name — we'll attach them to your request.", de: "Senden Sie Ihre Fotos vor oder nach dem Formular mit Ihrem Namen — wir ordnen sie Ihrer Anfrage zu." },
@@ -259,7 +259,7 @@
     "q.submit":       { fr: "Recevoir mon devis", en: "Get my quote", de: "Offerte erhalten" },
     "q.sending":      { fr: "Envoi en cours…", en: "Sending…", de: "Wird gesendet…" },
     "q.sent":         { fr: "Demande envoyée ✦ merci !", en: "Request sent ✦ thank you!", de: "Anfrage gesendet ✦ danke!" },
-    "q.error":        { fr: "Envoi impossible — appelez-nous au 078 812 81 99.", en: "Sending failed — call us on +41 78 812 81 99.", de: "Senden fehlgeschlagen — rufen Sie +41 78 812 81 99 an." },
+    "q.error":        { fr: "Envoi impossible — appelez-nous au 076 408 81 99.", en: "Sending failed — call us on +41 76 408 81 99.", de: "Senden fehlgeschlagen — rufen Sie +41 76 408 81 99 an." },
     "q.backend":      { fr: "Votre demande arrive directement dans la boîte mail de l'équipe. Réponse sous 24 h ouvrées, sans engagement.", en: "Your request goes straight to the team's inbox. Reply within 24 business hours, no commitment.", de: "Ihre Anfrage landet direkt im Postfach des Teams. Antwort in 24 Arbeitsstunden, unverbindlich." },
     "q.consent":      { fr: "En envoyant ce formulaire, vous acceptez d'être recontacté au sujet de votre demande de devis.", en: "By sending this form, you agree to be contacted about your quote request.", de: "Mit dem Absenden erklären Sie sich einverstanden, zu Ihrer Offertanfrage kontaktiert zu werden." },
     "q.consent.link": { fr: "Voir notre politique de confidentialité.", en: "See our privacy policy.", de: "Siehe unsere Datenschutzerklärung." },
@@ -273,7 +273,7 @@
     "lg.h1":          { fr: "Mentions légales<br>& confidentialité.", en: "Legal notice<br>& privacy.", de: "Impressum<br>& Datenschutz." },
     "lg.updated":     { fr: "Dernière mise à jour : août 2026.", en: "Last updated: August 2026.", de: "Zuletzt aktualisiert: August 2026." },
     "lg.1.h":         { fr: "1 · Éditeur du site", en: "1 · Site owner", de: "1 · Betreiber" },
-    "lg.1.p":         { fr: "Ginier & Co Sàrl — Chemin de la Chevillarde 13, c/o Pasture-Ginier Calvin, 1224 Chêne-Bougeries (GE), Suisse. IDE / TVA : CHE-194.665.058. Contact : info@ginier-co.ch · 078 812 81 99.", en: "Ginier & Co Sàrl — Chemin de la Chevillarde 13, c/o Pasture-Ginier Calvin, 1224 Chêne-Bougeries (GE), Switzerland. Business ID / VAT: CHE-194.665.058. Contact: info@ginier-co.ch · +41 78 812 81 99.", de: "Ginier & Co Sàrl — Chemin de la Chevillarde 13, c/o Pasture-Ginier Calvin, 1224 Chêne-Bougeries (GE), Schweiz. UID / MWST: CHE-194.665.058. Kontakt: info@ginier-co.ch · +41 78 812 81 99." },
+    "lg.1.p":         { fr: "Ginier & Co Sàrl — Chemin de la Chevillarde 13, c/o Pasture-Ginier Calvin, 1224 Chêne-Bougeries (GE), Suisse. IDE / TVA : CHE-194.665.058. Contact : info@ginier-co.ch · 076 408 81 99.", en: "Ginier & Co Sàrl — Chemin de la Chevillarde 13, c/o Pasture-Ginier Calvin, 1224 Chêne-Bougeries (GE), Switzerland. Business ID / VAT: CHE-194.665.058. Contact: info@ginier-co.ch · +41 76 408 81 99.", de: "Ginier & Co Sàrl — Chemin de la Chevillarde 13, c/o Pasture-Ginier Calvin, 1224 Chêne-Bougeries (GE), Schweiz. UID / MWST: CHE-194.665.058. Kontakt: info@ginier-co.ch · +41 76 408 81 99." },
     "lg.2.h":         { fr: "2 · Données collectées", en: "2 · Data collected", de: "2 · Erhobene Daten" },
     "lg.2.p":         { fr: "Via le formulaire de devis, nous collectons uniquement les informations que vous fournissez : nom, téléphone, e-mail, adresses de départ et d'arrivée, détails du logement (pièces, m², meubles, accès) et les photos que vous ajoutez. Aucune donnée n'est collectée à votre insu.", en: "Through the quote form we collect only the information you provide: name, phone, email, departure and arrival addresses, home details (rooms, m², furniture, access) and any photos you add. No data is collected without your knowledge.", de: "Über das Offertformular erheben wir nur die von Ihnen angegebenen Informationen: Name, Telefon, E-Mail, Start- und Zieladresse, Wohnungsdetails (Zimmer, m², Möbel, Zugang) und hochgeladene Fotos. Es werden keine Daten ohne Ihr Wissen erhoben." },
     "lg.3.h":         { fr: "3 · Finalité & base légale", en: "3 · Purpose & legal basis", de: "3 · Zweck & Rechtsgrundlage" },
@@ -287,7 +287,7 @@
     "lg.7.h":         { fr: "7 · Cookies & stockage local", en: "7 · Cookies & local storage", de: "7 · Cookies & lokaler Speicher" },
     "lg.7.p":         { fr: "Ce site n'utilise aucun cookie de suivi ni traceur publicitaire. Seule votre préférence de langue est mémorisée localement dans votre navigateur (localStorage) pour votre confort.", en: "This site uses no tracking cookies or advertising trackers. Only your language preference is stored locally in your browser (localStorage) for your convenience.", de: "Diese Website verwendet keine Tracking-Cookies oder Werbe-Tracker. Nur Ihre Sprachauswahl wird lokal in Ihrem Browser (localStorage) gespeichert." },
     "lg.8.h":         { fr: "8 · Contact", en: "8 · Contact", de: "8 · Kontakt" },
-    "lg.8.p":         { fr: "Pour toute question relative à ces informations : info@ginier-co.ch · 078 812 81 99.", en: "For any question about this information: info@ginier-co.ch · +41 78 812 81 99.", de: "Bei Fragen zu diesen Angaben: info@ginier-co.ch · +41 78 812 81 99." }
+    "lg.8.p":         { fr: "Pour toute question relative à ces informations : info@ginier-co.ch · 076 408 81 99.", en: "For any question about this information: info@ginier-co.ch · +41 76 408 81 99.", de: "Bei Fragen zu diesen Angaben: info@ginier-co.ch · +41 76 408 81 99." }
   };
 
   var LANGS = ["fr", "en", "de"];
