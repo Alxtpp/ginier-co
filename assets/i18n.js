@@ -85,6 +85,8 @@
     "team.alt.calvin":   { fr: "Calvin monte une armoire sur un chantier", en: "Calvin assembling a wardrobe on site", de: "Calvin baut vor Ort einen Schrank auf" },
     "team.alt.chantier": { fr: "Dressing monté et posé en fin de chantier", en: "Fitted wardrobe assembled at the end of the job", de: "Fertig montierter Einbauschrank am Ende des Auftrags" },
     "team.alt.camion":   { fr: "Piano protégé et sanglé dans le camion", en: "Piano padded and strapped down in the van", de: "Klavier geschützt und im Lieferwagen verzurrt" },
+    "team.alt.charge1":  { fr: "Un membre de l'équipe charge un carton dans le camion", en: "A team member loading a box into the van", de: "Ein Teammitglied lädt einen Karton in den Lieferwagen" },
+    "team.alt.charge2":  { fr: "Chargement du camion : canapé filmé et sanglé, meubles protégés", en: "Loading the van: sofa wrapped and strapped, furniture protected", de: "Beladen des Lieferwagens: Sofa eingewickelt und verzurrt, Möbel geschützt" },
     "ab.alt.chantier":   { fr: "Chambre remise en état après intervention", en: "Bedroom restored after our intervention", de: "Zimmer nach unserem Einsatz wiederhergestellt" },
     "ba.cta":         { fr: "Devis débarras gratuit →", en: "Free clearance quote →", de: "Kostenlose Offerte Entrümpelung →" },
     "srv.1.alt":      { fr: "Salon remonté et installé après un déménagement", en: "Living room reassembled and set up after a move", de: "Wohnzimmer nach dem Umzug wieder aufgebaut" },

@@ -199,6 +199,8 @@ h2.display{font-size:clamp(30px,4.2vw,50px);line-height:1.05;margin-bottom:16px}
 .team>img{width:100%;border:2px solid var(--green);border-radius:20px;display:block}
 .team-photos{display:grid;grid-template-columns:1fr 1fr;gap:16px}
 .team-photos img{width:100%;height:100%;object-fit:cover;border:2px solid var(--green);border-radius:16px;display:block}
+.team-strip{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:28px}
+.team-strip img{width:100%;aspect-ratio:1/1;height:auto;object-fit:cover;object-position:50% 62%;border:2px solid var(--green);border-radius:16px;display:block}
 .signature{font-family:'Yellowtail',cursive;font-size:30px;margin-top:20px;display:block}
 
 /* ---------- footer ---------- */
@@ -214,6 +216,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;
   .step::after{content:"↓";top:auto;bottom:-36px;right:auto;left:50%;transform:translateX(-50%)}
   .step:last-child::after{content:none}
   .tgrid,.cgrid,.seg,.team{grid-template-columns:1fr}
+  .team-strip img{aspect-ratio:3/4}
   .nav-toggle{display:block}
   .links{position:absolute;top:100%;left:0;right:0;background:var(--cream);border-bottom:2px solid var(--green);
     flex-direction:column;gap:0;padding:6px 24px 16px;display:none}
@@ -221,6 +224,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;
   .links a{padding:13px 0;border-bottom:1px solid rgba(1,67,46,.12);width:100%}
 }
 @media(max-width:600px){
+  .lang-btn{padding:10px 9px}
   .cards,.rev-grid{grid-template-columns:1fr}
   .ba-grid{grid-template-columns:1fr}
   .phone-btn{display:none}
@@ -451,6 +455,10 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;
       <span class="signature" data-i18n="team.sign">Calvin — fondateur</span>
       <div style="margin-top:22px"><a class="btn btn-outline" href="a-propos.html" data-i18n="team.about">En savoir plus sur nous</a></div>
     </div>
+  </div>
+  <div class="team-strip">
+    <img src="assets/equipe-chargement.jpg" alt="Un membre de l'équipe charge un carton dans le camion" data-i18n-alt="team.alt.charge1" loading="lazy" width="900" height="1200">
+    <img src="assets/equipe-chargement-dos.jpg" alt="Chargement du camion : canapé filmé et sanglé, meubles protégés" data-i18n-alt="team.alt.charge2" loading="lazy" width="900" height="1200">
   </div>
 </div></section>
 

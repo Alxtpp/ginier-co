@@ -116,5 +116,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;
   .qrow,.qrow-3{grid-template-columns:1fr}
 }
 @media(max-width:600px){
+  .lang-btn{padding:10px 9px}
+  .qf input,.qf select,.qf textarea{font-size:16px}
   .phone-btn{display:none}
 }
