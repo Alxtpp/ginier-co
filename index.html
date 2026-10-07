@@ -196,9 +196,9 @@ h2.display{font-size:clamp(30px,4.2vw,50px);line-height:1.05;margin-bottom:16px}
 
 /* ---------- équipe ---------- */
 .team{display:grid;grid-template-columns:.85fr 1.15fr;gap:40px;align-items:center;margin-top:44px}
-.team>img{width:100%;border:2px solid var(--green);border-radius:20px;display:block}
+.team>img{width:100%;aspect-ratio:4/5;height:auto;object-fit:cover;object-position:50% 45%;border:2px solid var(--green);border-radius:20px;display:block}
 .team-photos{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-.team-photos img{width:100%;height:100%;object-fit:cover;border:2px solid var(--green);border-radius:16px;display:block}
+.team-photos img{width:100%;aspect-ratio:1/1;height:auto;object-fit:cover;border:2px solid var(--green);border-radius:16px;display:block}
 .team-strip{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:28px}
 .team-strip img{width:100%;aspect-ratio:1/1;height:auto;object-fit:cover;object-position:50% 62%;border:2px solid var(--green);border-radius:16px;display:block}
 .signature{font-family:'Yellowtail',cursive;font-size:30px;margin-top:20px;display:block}
@@ -445,20 +445,16 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;
   <h2 class="display" data-i18n-html="team.h2">Une petite équipe,<br>toujours la même.</h2>
   <p class="lead" data-i18n="team.lead">Pas d'intérimaires envoyés au hasard : c'est Calvin qui fait le devis — sur place, en visio ou sur photos — et c'est lui que vous retrouvez le jour du déménagement.</p>
   <div class="team">
-    <img src="assets/equipe-calvin.jpg" alt="Calvin monte une armoire sur un chantier" data-i18n-alt="team.alt.calvin" loading="lazy" width="900" height="1125">
+    <img src="assets/equipe-chargement-dos.jpg" alt="Chargement du camion : canapé filmé et sanglé, meubles protégés" data-i18n-alt="team.alt.charge2" loading="lazy" width="900" height="1200">
     <div>
       <div class="team-photos">
-        <img src="assets/equipe-chantier.jpg" alt="Dressing monté et posé en fin de chantier" data-i18n-alt="team.alt.chantier" loading="lazy" width="700" height="700">
+        <img src="assets/equipe-chargement.jpg" alt="Un membre de l'équipe charge un carton dans le camion" data-i18n-alt="team.alt.charge1" loading="lazy" width="900" height="1200" style="object-position:50% 60%">
         <img src="assets/equipe-camion.jpg" alt="Piano protégé et sanglé dans le camion" data-i18n-alt="team.alt.camion" loading="lazy" width="700" height="700">
       </div>
       <p class="lead" style="margin-top:24px" data-i18n="team.quote">« On a monté Ginier &amp; Co pour faire les choses proprement : un devis honnête, du matériel qui protège vraiment, et des gens qui font attention à vos meubles comme aux leurs. »</p>
       <span class="signature" data-i18n="team.sign">Calvin — fondateur</span>
       <div style="margin-top:22px"><a class="btn btn-outline" href="a-propos.html" data-i18n="team.about">En savoir plus sur nous</a></div>
     </div>
-  </div>
-  <div class="team-strip">
-    <img src="assets/equipe-chargement.jpg" alt="Un membre de l'équipe charge un carton dans le camion" data-i18n-alt="team.alt.charge1" loading="lazy" width="900" height="1200">
-    <img src="assets/equipe-chargement-dos.jpg" alt="Chargement du camion : canapé filmé et sanglé, meubles protégés" data-i18n-alt="team.alt.charge2" loading="lazy" width="900" height="1200">
   </div>
 </div></section>
 
